@@ -25,7 +25,7 @@ def fetch_cast(movie_id):
         data = requests.get(url)
         data.raise_for_status()
         data = data.json()
-        return [actor['name'] for actor in data['cast'][:5]]
+        return [actor['name'] for actor in data['cast'][:4]]
     except RequestException:
         return []
 
