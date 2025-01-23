@@ -1,5 +1,5 @@
 
-# 🎬 Movie Recommender System 🎥
+# 🎬 Movie Recommendation System 🎥
 
 A sleek and user-friendly **Movie Recommendation System** built using **Python** and **Streamlit**. Select a genre, and the app will recommend similar movies based on that genre, with their posters fetched dynamically from the **TMDb API**.
 
